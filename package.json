@@ -1,0 +1,21 @@
+{
+  "name": "websockets",
+  "description": "Websockets",
+  "version": "0.0.1",
+  "author": "Miroslav Georgiev <mir4ef@gmail.com>",
+  "private": true,
+  "engines": {
+    "node": ">=6.3.0"
+  },
+  "main": "server.js",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "compression": "^1.6.1",
+    "express": "^4.12.4",
+    "helmet": "^3.0.0",
+    "morgan": "^1.5.3",
+    "socket.io": "^1.6.0",
+    "spdy": "^3.4.4"
+  }
+}

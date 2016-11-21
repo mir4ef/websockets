@@ -1,0 +1,18 @@
+html, input, button {
+    font-size: 14pt;
+}
+
+input, button {
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+button {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f9f9f9;
+}

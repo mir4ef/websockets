@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+    <head>
+        <title>Web sockets</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Miroslav Georgiev" />
+        
+        <base href="/" />
+
+        <!-- START Stylesheet Declaration -->
+        <link rel='stylesheet' href='css/styles.css' media='screen' />
+        <!-- END Stylesheet Declaration -->
+    </head>
+    <body>
+        <main role="main">
+            <input type='text' id='txtInput' name='txtInput' value='' />
+            <button id='btnRegUser'>Register</button>
+            <button id='btnGetMsg'>Get Message</button>
+        </main>
+        
+        <!-- START JavaScript Declaration -->
+        <script src="/socket.io/socket.io.js"></script>
+        <script src='js/scripts.js'></script>
+        <!-- END JavaScript Declaration -->
+    </body>
+</html>
