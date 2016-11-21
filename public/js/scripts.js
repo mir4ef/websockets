@@ -1,5 +1,7 @@
 /**
- * Created by miroslav.georgiev on 11/19/16.
+ * @file scripts.js
+ * @author Miroslav Georgiev
+ * @version 0.0.1
  */
 
 (function () {
