@@ -4,6 +4,13 @@
   "version": "0.0.1",
   "author": "Miroslav Georgiev <mir4ef@gmail.com>",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mir4ef/websockets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mir4ef/websockets/issues"
+  },
   "engines": {
     "node": ">=6.3.0"
   },
