@@ -22,7 +22,13 @@
     "express": "^4.12.4",
     "helmet": "^3.0.0",
     "morgan": "^1.5.3",
-    "socket.io": "^1.6.0",
-    "spdy": "^3.4.4"
-  }
+    "socket.io": "^2.0.2",
+    "spdy": "^3.4.4",
+    "snyk": "^1.42.6"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
