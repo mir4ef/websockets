@@ -63,3 +63,5 @@ npm-debug.log*
 
 node_modules
 server/certs/*
+!server/certs/.gitkeep
+.env

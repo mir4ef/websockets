@@ -1,12 +1,10 @@
 /**
  * @file stream.js contains Streaming/Websocket API routes used by the application
  * @author Miroslav Georgiev
- * @version 0.0.1
+ * @version 0.0.2
  */
 
 'use strict';
-
-const config = require('../../config');
 
 module.exports = io => {
 
@@ -39,11 +37,13 @@ module.exports = io => {
      */
 
     function saveUser(user) {
+        // send to sender client
         this.emit('newUser', user);
     }
 
     function sendMsg(msg) {
-        this.emit('sendMsg', msg);
+        // send to all connected clients except the sender
+        this.broadcast.emit('sendMsg', msg);
     }
 
     /**
